@@ -57,11 +57,11 @@ manifest.yml
 ```
 ---
 applications:
-- name: bg-hello
+- name: <insert appname here>
   instances: 1
   memory: 750MB
   routes:
-  - route: bg-hello.cfapps.io
+  - route: <insert appname here>.cfapps.io
   stack: cflinuxfs3
 ```
 
@@ -80,7 +80,9 @@ Add /hello to hit our REST endpoint we defined
 
 Show actuator endpoints: actuator/{env, metrics, health}
 
+Examine app in Apps Manager on PWS
 
+Show how health checks get pulled in, logs, and metrics become available by default
 
 
 
