@@ -19,10 +19,12 @@ cf login
 Ready to get started with the Spring Initializr: https://start.spring.io/
 
 Switch to gradle
+
 Group: com.springdev.demo
+
 Artifact: hello
 
-Generate Project
+Click Generate Project
 
 Go to workspace in terminal:
 
